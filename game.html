@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors</title>
+    <script defer src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="scoreboard">
+            <div>Player :
+                <span class="player-score">0</span>
+            </div>
+            <div>Computer :
+                <span class="computer-score">0</span>
+            </div>
+        </div>
+
+    <div id="gameboard">
+        <div class="results-left"></div>
+
+        <div class="match">
+            <div class="statistics">
+                <p id="statistics-title">statistics</p>
+                <p id="statistics-data"><span id="playerStats"></span><span id="drawStats"></span><span id="computerStats"></span></p>
+            </div>
+            <div class="match-wrapper">
+            <div class="match-result"></div>
+            <div class="match-vs"></div>
+            </div>
+
+            <div id="selection-area">
+                <div class="selections">
+                    <button class="selection" id="pierre" data-selection="rock">✊</button>
+                    <button class="selection" id="feuille" data-selection="paper">✋</button>
+                    <button class="selection" id="ciseaux" data-selection="scissor">✌️</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="results-right"></div>
+    </div>
+</body>
+</html>

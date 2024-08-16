@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Zain:wght@200;300;400;700;800;900&display=swap');
+
+
+body {
+    background-color: #eaeaea;
+    margin: 0;
+    font-family: 'Zain';
+}
+
+#scoreboard{
+    width: 100vw;
+    height: 10vh;
+    border: solid 2px yellow;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 2em;
+    color: white;
+    font-size: 3em;
+}
+
+#gameboard{
+    width: 100vw;
+    height: 90vh;
+    display: flex;
+    flex-direction: row;
+}
+
+.statistics{
+    width: 60%;
+    height: 15%;
+    background-color: rgb(187, 75, 75);
+}
+
+#statistics-title{
+    text-transform: uppercase;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+#statistics-data{
+    font-size: 2em;
+    text-align: center;
+}
+
+.results-left,.results-right{
+    width: 20%;
+    height: 100%;
+}
+
+.match{
+    height: 100%;
+    width: 80%;
+}
+
+.results-left{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.results-right{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 3em;
+    overflow: hidden;
+}
+
+#selection-area{
+    width: 100vw;
+    height: 20vh;
+}
+
+.match{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+
+.match-wrapper{
+    width: 60%;
+    height: 65%;
+    background-color: rgb(228, 104, 104);
+}
+
+.match-result{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    font-size: 4em;
+    text-transform: uppercase;
+}
+
+.match-vs{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    font-size: 4em;
+}
+.match-vs span{
+    font-size: 1em;
+}
+
+
+.selections {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.selection {
+    background: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 4rem;
+    margin-left: 0.5em;
+    margin-left: 0.5em;
+    transition: 100ms;
+}
+
+.selection:hover {
+    transform: scale(1.5,1.5);
+    outline: 5px red;
+}
